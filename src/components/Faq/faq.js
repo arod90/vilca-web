@@ -4,8 +4,7 @@ class Faq extends Component {
   state = {
     initData: {
       heading: 'Preguntas Frecuentes ',
-      content:
-        'we believe in making simple and fair pricing plans. Choose your next successful planand get started today!.',
+      content: '',
       image: '/img/coldbrews.jpg',
     },
     data: [
