@@ -51,7 +51,7 @@ class Footer extends Component {
                       {this.state.data.map((item, idx) => {
                         return (
                           //   <li key={`fo_${idx}`}>
-                          <a href={item.link}>
+                          <a href={item.link} key={idx}>
                             {' '}
                             <span>{item.iconClass}</span>
                           </a>
