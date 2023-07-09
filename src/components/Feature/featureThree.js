@@ -30,7 +30,7 @@ class Feature extends React.Component {
         content2Head: 'Destilado con agua de Vilcabamba',
         content2Text:
           'preparamos nuestro cold brew de manera artesanal, utilizando agua de manantial proveniente del valle de la longevidad.',
-        content3Head: 'Infusionado con CBD de espectro completo',
+        content3Head: 'Infusionado con CBD de espectro completo.',
         content3Text:
           'utilizamos extractos de cannabidiol de la mas alta calidad, cada botella viene con mas de 100 compuestos derivados del cannabis con innumerables beneficios a nivel mental y fisico.  ',
         ul_1: 'Fuente de Energia.',
