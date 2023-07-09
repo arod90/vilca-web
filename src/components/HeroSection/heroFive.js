@@ -57,7 +57,7 @@ class HeroSection extends React.Component {
               <div className="pattern-overlay">
                 <div
                   className="player"
-                  data-property="{videoURL:'https://www.youtube.com/watch?v=RTMoaqBqskc',containment:'.video-section-wrap-two', quality:'highres', autoPlay:true, showControls: false, startAt:0, stopAt: 43, loop:true, mute:true, opacity: 1}"
+                  data-property="{videoURL:'https://www.youtube.com/watch?v=RTMoaqBqskc',containment:'.video-section-wrap-two', quality:'highres', autoPlay:true, showControls: false, startAt:0, stopAt: 43, loop:true, mute:true, opacity: 1, 'origin': 'http://localhost:3000'}"
                 ></div>
                 <div className="container">
                   <div className="row">
