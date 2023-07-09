@@ -33,10 +33,10 @@ class Feature extends React.Component {
         content3Head: 'Infusionado con CBD de espectro completo',
         content3Text:
           'utilizamos extractos de cannabidiol de la mas alta calidad, cada botella viene con mas de 100 compuestos derivados del cannabis con innumerables beneficios a nivel mental y fisico.  ',
-        ul_1: 'Fuente de Energia',
-        ul_2: 'Claridad y serenidad',
-        ul_3: 'Enfoque y concentracion',
-        ul_4: 'Alta concentración de antioxidantes',
+        ul_1: 'Fuente de Energia.',
+        ul_2: 'Claridad y serenidad.',
+        ul_3: 'Enfoque y concentracion.',
+        ul_4: 'Alta concentración de antioxidantes.',
       },
       {
         id: 2,
