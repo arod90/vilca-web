@@ -50,18 +50,18 @@ class Feature extends React.Component {
         ul_3: 'Live 24/7 Support',
         ul_4: 'Identification & Smart',
       },
-      {
-        id: 3,
-        featureName: 'Algo más',
-        featureHeading: 'Windows Apps - Microsoft Store',
-        featureImage: '/img/tab-image-3.png',
-        content:
-          'Dramatically re-engineer optimal e-markets vis-a-vis top-line web services. Globally drive 24/7 meta-services with adaptive products. Professionally matrix leading-edge experiences after high-quality networks. Appropriately extend 24/7 customer service before unique communities. Intrinsicly harness resource sucking channels and virtual materials.',
-        ul_1: 'Scheduling Big',
-        ul_2: 'Data Online Consultations',
-        ul_3: 'Live 24/7 Support',
-        ul_4: 'Identification & Smart',
-      },
+      // {
+      //   id: 3,
+      //   featureName: 'Algo más',
+      //   featureHeading: 'Windows Apps - Microsoft Store',
+      //   featureImage: '/img/tab-image-3.png',
+      //   content:
+      //     'Dramatically re-engineer optimal e-markets vis-a-vis top-line web services. Globally drive 24/7 meta-services with adaptive products. Professionally matrix leading-edge experiences after high-quality networks. Appropriately extend 24/7 customer service before unique communities. Intrinsicly harness resource sucking channels and virtual materials.',
+      //   ul_1: 'Scheduling Big',
+      //   ul_2: 'Data Online Consultations',
+      //   ul_3: 'Live 24/7 Support',
+      //   ul_4: 'Identification & Smart',
+      // },
     ],
   };
 

@@ -1168,6 +1168,7 @@ SECTION MARGIN
   vertical-align: middle;
   z-index: 200;
 }
+
 .hero-content h1 {
   font-size: 40px;
   line-height: 48px;
@@ -1175,12 +1176,31 @@ SECTION MARGIN
   margin-bottom: 0;
   font-weight: 500;
 }
+
 .hero-content p {
   font-size: 1.2rem;
   font-weight: 300;
   line-height: 1.7;
   padding: 20px 0;
   color: #fff;
+}
+
+@media only screen and (max-width: 600px) {
+  .hero-content h1 {
+    font-size: 35px;
+    line-height: 48px;
+    color: #fff;
+    margin-bottom: 0;
+    font-weight: 500;
+  }
+
+  .hero-content p {
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.7;
+    padding: 20px 0;
+    color: #fff;
+  }
 }
 
 /*white indicator*/
@@ -3110,6 +3130,19 @@ SECTION MARGIN
   margin: 0;
   position: relative;
   text-decoration: none;
+}
+
+@media only screen and (max-width: 450px) {
+  #accordion .panel-title a {
+    display: block;
+    padding: 10px 55px 10px 10px !important;
+    font-size: 15px;
+    font-weight: 600;
+    border: 0;
+    margin: 0;
+    position: relative;
+    text-decoration: none;
+  }
 }
 
 #accordion .panel-title a:before,
