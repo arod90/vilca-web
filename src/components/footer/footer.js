@@ -35,7 +35,10 @@ class Footer extends Component {
 
   render() {
     return (
-      <footer className="footer-section bg-secondary ptb-60">
+      <footer
+        className="footer-section bg-secondary ptb-60"
+        style={{ borderTop: '1px solid gray' }}
+      >
         <div className="footer-wrap">
           <div className="container">
             <div className="row">

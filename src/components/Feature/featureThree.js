@@ -15,7 +15,7 @@ class Feature extends React.Component {
     initData: {
       heading: 'Nuestra Linea de Productos',
       content:
-        'Todos nuestra línea de productos infusiona cuidadosamente la mejor materia prima con extractos de CBD de alta calidad el cual ofrece múltiples beneficios a nivel físico y mental',
+        'Todos nuestra línea de productos infusiona cuidadosamente la mejor materia prima con extractos de CBD de alta calidad el cual, ofrece múltiples beneficios a nivel físico y mental',
       image: '/img/wave-shape.svg',
     },
     featureData: [
@@ -23,19 +23,19 @@ class Feature extends React.Component {
         id: 1,
         featureName: 'Cold Brew + CBD',
         featureHeading: 'Cold Brew',
-        featureImage: '/img/coldbrewlado.jpg',
+        featureImage: '/img/boitellasnew.jpg',
         content1Head: 'Elaborado con café de origen',
         content1Text:
-          'Nuestro cold brew se prepara exclusivamente con cafe galardonado de la finca El Aguacate en Loja',
+          'Nuestro cold brew se prepara exclusivamente con café galardonado de la finca El Aguacate en Loja',
         content2Head: 'Destilado con agua de Vilcabamba',
         content2Text:
-          'preparamos nuestro cold brew de manera artesanal, utilizando agua de manantial proveniente del valle de la longevidad.',
+          'Preparamos nuestro cold brew de manera artesanal, utilizando agua de manantial proveniente del valle de la longevidad.',
         content3Head: 'Infusionado con CBD de espectro completo.',
         content3Text:
-          'utilizamos extractos de cannabidiol de la mas alta calidad, cada botella viene con mas de 100 compuestos derivados del cannabis con innumerables beneficios a nivel mental y fisico.  ',
+          'Utilizamos extractos de cannabidiol de la más alta calidad, cada botella viene con más de 100 compuestos derivados del cannabis con innumerables beneficios a nivel mental y físico.  ',
         ul_1: 'Fuente de Energia.',
         ul_2: 'Claridad y serenidad.',
-        ul_3: 'Enfoque y concentracion.',
+        ul_3: 'Enfoque y concentración.',
         ul_4: 'Alta concentración de antioxidantes.',
       },
       {
@@ -52,7 +52,7 @@ class Feature extends React.Component {
       },
       {
         id: 3,
-        featureName: 'Algo mas',
+        featureName: 'Algo más',
         featureHeading: 'Windows Apps - Microsoft Store',
         featureImage: '/img/tab-image-3.png',
         content:

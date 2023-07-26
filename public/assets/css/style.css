@@ -1032,6 +1032,7 @@ SECTION MARGIN
 ============================================================*/
 
 .navbar {
+  border-top: 2px solid #2b3b2b;
   border-bottom: 1px solid #2b3b2b;
   background-color: #1d281e;
 }
@@ -1051,7 +1052,7 @@ SECTION MARGIN
 .navbar .navbar-brand {
   height: auto;
   display: block;
-  /* margin-top: -6px; */
+  margin-top: -5px;
 }
 
 /* Menu links */
@@ -1133,7 +1134,7 @@ SECTION MARGIN
   }
 
   .navbar .navbar-brand {
-    margin-right: 16px;
+    margin-right: 0px;
     margin-left: 0 !important;
   }
 
@@ -1806,7 +1807,14 @@ SECTION MARGIN
 /* Logo Vilca */
 
 .logo-vilca {
-  width: 15vw;
+  height: 5vh;
+}
+
+@media only screen and (max-width: 780px) {
+  .logo-vilca {
+    height: 3vh;
+    margin-top: 10px;
+  }
 }
 
 .logo-hero {
@@ -1822,14 +1830,18 @@ SECTION MARGIN
   display: flex;
   flex-direction: column;
   justify-content: center;
-  min-height: 100vh;
+  min-height: 110vh;
   text-align: center;
+  overflow: hidden;
+  pointer-events: none;
+  margin-top: -50px;
 }
+
 #hero-section .video-section-wrap-two .pattern-overlay {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  min-height: 100vh;
+  min-height: 110vh;
   background: -webkit-linear-gradient(
     150deg,
     rgba(43, 59, 43, 0.55) 25%,

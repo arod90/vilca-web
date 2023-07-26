@@ -8,7 +8,7 @@ import React from 'react';
 
 let initData = {
   heading: 'Cannabis Sensory Experience',
-  content: `En la provincia de Loja, ubicado a 1.700 metros sobre el nivel del mar, se encuentra el valle sagrado de Vilcabamba,  un lugar único en el mundo donde es común vivir más de 100 años. ¿El secreto? la calidad de vida, del agua, y de los alimentos que provienen de la región, en Vilcahemp buscamos infusionar estos regalos del valle con las bondades del cannabis, a traves de productos de alta calidad.`,
+  content: `En la provincia de Loja, ubicado a 1.700 m s. n. m. se encuentra el valle de Vilcabamba,  un lugar donde es común vivir más de 100 años. ¿El secreto? la calidad de vida, del agua, y de los alimentos de la región, en Vilcahemp buscamos infusionar estos regalos del valle con las bondades del cannabis, a traves de productos de alta calidad.`,
   heroImage: '/img/faq-right.png',
   actionShapeImage: '/img/shape-bg.png',
 };
@@ -57,7 +57,7 @@ class HeroSection extends React.Component {
               <div className="pattern-overlay">
                 <div
                   className="player"
-                  data-property="{videoURL:'https://www.youtube.com/watch?v=RTMoaqBqskc',containment:'.video-section-wrap-two', quality:'highres', autoPlay:true, showControls: false, startAt:0, stopAt: 43, loop:true, mute:true, opacity: 1, 'origin': 'http://localhost:3000'}"
+                  data-property="{videoURL:'https://www.youtube.com/watch?v=RTMoaqBqskc',containment:'.video-section-wrap-two', quality:'highres', autoPlay:true, showControls: false, startAt:0, realfullscreen: true, stopAt: 43, loop:true, mute:true, opacity: 1, 'origin': 'http://localhost:3000'}"
                 ></div>
                 <div className="container">
                   <div className="row">

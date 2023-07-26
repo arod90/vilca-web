@@ -8,8 +8,8 @@ class Contact extends Component {
       content:
         'Estamos siempre pendientes de sus mensajes, cualquier pregunta o inquietud siéntanse en la libertad de llenar el formulario en esta sección, o de ponerse en contacto directamente a los siguientes números telefónicos, ya sea vía WhatsApp o por llamada ',
       branch: 'Oficinas',
-      address: 'Alguna calle S2-155, y la que cruza, Loja, Ecuador',
-      phone: '+593 999 123 123',
+      address: 'Sucre 118-77 y Cariamanga',
+      phone: '+593 984 783 113',
       email: 'vilcahemp@gmail.com',
     },
   };
