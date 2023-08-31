@@ -38,18 +38,18 @@ class Feature extends React.Component {
         ul_3: 'Enfoque y concentración.',
         ul_4: 'Alta concentración de antioxidantes.',
       },
-      {
-        id: 2,
-        featureName: 'Miel de Abeja + CBD',
-        featureHeading: 'Lorem ipsum dolor ',
-        featureImage: '/img/tab-image-2.png',
-        content:
-          'sit amet consectetur adipisicing elit. Dolorem, et. sit amet consectetur adipisicing elit. Dolorem, et. sit amet consectetur adipisicing elit. Dolorem, et. ',
-        ul_1: 'Scheduling Big',
-        ul_2: 'Data Online Consultations',
-        ul_3: 'Live 24/7 Support',
-        ul_4: 'Identification & Smart',
-      },
+      // {
+      //   id: 2,
+      //   featureName: 'Miel de Abeja + CBD',
+      //   featureHeading: 'Lorem ipsum dolor ',
+      //   featureImage: '/img/tab-image-2.png',
+      //   content:
+      //     'sit amet consectetur adipisicing elit. Dolorem, et. sit amet consectetur adipisicing elit. Dolorem, et. sit amet consectetur adipisicing elit. Dolorem, et. ',
+      //   ul_1: 'Scheduling Big',
+      //   ul_2: 'Data Online Consultations',
+      //   ul_3: 'Live 24/7 Support',
+      //   ul_4: 'Identification & Smart',
+      // },
       // {
       //   id: 3,
       //   featureName: 'Algo más',
