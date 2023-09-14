@@ -1,14 +1,14 @@
 import React from 'react';
 
 const Images = [
-  { id: 1, image: 'img/client/customer-logo-1.png' },
-  { id: 2, image: 'img/client/customer-logo-2.png' },
-  { id: 3, image: 'img/client/customer-logo-3.png' },
-  { id: 4, image: 'img/client/customer-logo-4.png' },
-  { id: 5, image: 'img/client/customer-logo-7.png' },
-  { id: 6, image: 'img/client/customer-logo-8.png' },
-  { id: 7, image: 'img/client/customer-logo-10.png' },
-  { id: 8, image: 'img/client/customer-logo-9.png' },
+  { id: 1, image: 'img/image00001.png' },
+  { id: 2, image: 'img/image00002.png' },
+  { id: 3, image: 'img/image00003.png' },
+  { id: 4, image: 'img/image00004.png' },
+  { id: 5, image: 'img/image00005.png' },
+  { id: 6, image: 'img/image00006.png' },
+  { id: 7, image: 'img/image00007.png' },
+  { id: 4, image: 'img/image00008.png' },
 ];
 
 class CustomerSection extends React.Component {
@@ -43,7 +43,14 @@ class CustomerSection extends React.Component {
                     <div className="owl-carousel owl-theme customers-slider">
                       {this.state.Images.map((item, idx) => {
                         return (
-                          <div key={`customer_${idx}`} className="item">
+                          <div
+                            key={`customer_${idx}`}
+                            className={
+                              item.id === 4 ? 'black-background item' : 'item'
+                            }
+                            // className="item"
+                            // style={{ backgroundColor: 'black' }}
+                          >
                             <img src={item.image} alt="client logo" />
                           </div>
                         );
